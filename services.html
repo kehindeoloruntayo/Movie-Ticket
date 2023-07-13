@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery-3.6.4.js"></script>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/services.css" type="text/css">
+    <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link rel="icon" href="./img/movie.jpeg">
+    <title>Movie Ticket</title>
+</head>
+
+<body>
+    <div class="background">
+        <img src="./img/pexels-francesco-ungaro-396547.jpg" alt="background">
+    </div>
+    <nav id="navbar" class="navbar">
+        <ul>
+          <li><img src="./img/movie.jpeg" class="images" alt="logo"></li>
+          <li><a class="nav-link" href="./index.html">Home</a></li>
+          <li><a class="nav-link" href="./about.html">About</a></li>
+          <li><a class="nav-link" href="./gallery.html">Gallery</a></li>
+          <li><a class="nav-link active" href="./services.html">Services</a></li>
+          <li><a class="nav-link" href="./contactus.html">Contact</a></li>
+        </ul>
+      </nav>
+    <div class="container content">
+        <img src="./img/logo.jpeg" alt="logo">
+        <h1>Movie Ticket</h1>
+        <form id="ticketForm">
+            <form id="ticketForm">
+                <div class="form-group">
+                    <label for="movieName">Movie Name:</label>
+                    <select id="movieName" required>
+                        <option value=""></option>
+                        <option value="First Release Fast X">Fast X</option>
+                        <option value="Black Panther">Black Panther</option>
+                        <option value="The Flash">The Flash</option>
+                        <option value="John Wick: Chapter 4">John Wick: Chapter 4</option>
+                        <option value="Spider Man: Across the Spider-Verse">Spider-Man: Across the Spider-Verse</option>
+                        <option value="Flamin' Hot">Flamin' Hot</option>
+                        <option value="Ant Man and the wasp: Quantumania">Ant Man and the wasp: Quantumania</option>
+                        <option value="The Marvels">The Marvels</option>
+                        <option value="Megan">Megan</option>
+                        <option value="Cocaine Bear">Cocaine Bear</option>
+                        <option value="Jesus Revolution">Jesus Revolution</option>
+                        </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="timeOfDay">Time of Day:</label>
+                    <select id="timeOfDay" required>
+                        <option value=""></option>
+                        <option value="matinee">Matinee</option>
+                        <option value="regular">Regular</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" required>
+                </div>
+
+                <input type="submit" value="Purchase">
+            </form>
+
+            <div id="result" style="margin-top: 20px;"></div>
+
+    </div>
+    <div class="collection">
+        <img src="./img/black-panther.jpeg" alt="">
+        <img src="./img/fast-x.jpeg" alt="">
+        <img src="./img/flash.jpeg" alt="">
+        <img src="./img/john.jpeg" alt="">
+        <img src="./img/shazam.jpeg" alt="">
+        <img src="./img/spiderman.jpeg" alt="">
+    </div>
+
+    <div class="footer-main" data-background="assets/img/shape/footer_bg.png">
+        <div class="footer-area footer-padding">
+            <div class="container">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-lg-3 col-md-4 col-sm-8">
+                        <div class="single-footer-caption mb-50">
+                            <div class="single-footer-caption mb-30">
+
+                                <div class="footer-logo">
+                                    <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
+                                </div>
+                                <div class="footer-tittle">
+                                    <div class="footer-pera">
+                                        <p class="info1">221B Baker Street, P.O Box 353 Park <br> Road, USA - 215431</p>
+                                        <p class="info2">Kehindeoloruntayo1@gmail.com</p>
+                                    </div>
+                                </div>
+                                <div class="footer-social">
+                                    <a href="#"><i class="bi bi-facebook"></i></a>
+                                    <a href="#"><i class="bi bi-twitter"></i></a>
+                                    <a href="#"><i class="bi bi-instagram"></i></a>
+                                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-5">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Quick Links</h4>
+                                <ul>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="about.html">Features</a></li>
+                                    <li><a href="single-blog.html">Pricing</a></li>
+                                    <li><a href="blog.html">Blog</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-7">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Support</h4>
+                                <ul>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Terms & Conditions</a></li>
+                                    <li><a href="#"> Sitemap</a></li>
+                                    <li><a href="#">FAQs</a></li>
+                                    <li><a href="#">Report a bug</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-5">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Core Features</h4>
+                                <ul>
+                                    <li><a href="#">Email Marketing</a></li>
+                                    <li><a href="#"> Offline SEO</a></li>
+                                    <li><a href="#">Social Media Marketing</a></li>
+                                    <li><a href="#">Lead Generation</a></li>
+                                    <li><a href="#"> 24/7 Support</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
