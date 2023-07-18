@@ -1,3 +1,4 @@
+// Business Logic  ---------
 // Ticket constructor function
 function Ticket(movieName, timeOfDay, age) {
   this.movieName = movieName;
@@ -34,6 +35,7 @@ Ticket.prototype.calculatePrice = function () {
   return basePrice;
 };
 
+// User Interface Logic ---------
 // Function to handle form submission
 function handleFormSubmit(event) {
   event.preventDefault(); // Prevent the form from submitting
