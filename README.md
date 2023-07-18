@@ -6,7 +6,7 @@
 * _HTML_
 * _CSS_
 * _BOOTSTRAP_
-* _JAVASCRIPT_
+* _JAVASCRIPT [Object Oriented Programming]_
 * _JQUERY_
 
 ## Setup/Installation Requirements
